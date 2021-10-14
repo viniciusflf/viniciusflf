@@ -1,7 +1,5 @@
 <h4 align="center">
  
-![Hello]
-
 <hr>
 
 [![Github Badge](https://img.shields.io/badge/-Facebook-blue?style=for-the-badge&logo=Facebook&logoColor=white&link=https://github.com/viniciusflf)](https://www.facebook.com/viniciusflf/)
