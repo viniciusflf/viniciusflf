@@ -4,7 +4,7 @@
 
 [![Github Badge](https://img.shields.io/badge/-Facebook-blue?style=for-the-badge&logo=Facebook&logoColor=white&link=https://github.com/viniciusflf)](https://www.facebook.com/viniciusflf/)
 [![Instagram Badge](https://img.shields.io/badge/-instagram-red?style=for-the-badge&logo=instagram&logoColor=white&link=https://github.com/viniciusflf)](https://www.instagram.com/viniciusflf79/)
-[![Linkedin Badge](https://img.shields.io/badge/-Linkedin-blue?style=for-the-badge&logo=Linkedin&logoColor=white&link=https://github.com/viniciusflf](https://www.linkedin.com/in/viniciusflf/)
+[![Linkedin Badge](https://img.shields.io/badge/-Linkedin-blue?style=for-the-badge&logo=Linkedin&logoColor=white&link=https://github.com/viniciusflf)](https://www.linkedin.com/in/viniciusflf/)
 </h4>
 
 <h3 align="center">
