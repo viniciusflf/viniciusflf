@@ -16,4 +16,4 @@ Olá, eu sou o Vinicius Fernandes! 🇧🇷
 <br>
 
 ![A GitHub stats](https://github-readme-stats.vercel.app/api?username=viniciusflf&show_icons=true&theme=tokyonight)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=viniciusflf&layout=compact&theme=tokyonight)](https://github.com/viniciusflf)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=viniciusflf&theme=tokyonight)](https://github.com/viniciusflf)
