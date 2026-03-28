@@ -1,19 +1,60 @@
-<h4 align="center">
- 
-<hr>
+# 👋 Olá, eu sou Vinicius Fernandes
 
-[![Linkedin Badge](https://img.shields.io/badge/-Linkedin-blue?style=for-the-badge&logo=Linkedin&logoColor=white&link=https://github.com/viniciusflf)](https://www.linkedin.com/in/viniciusflf/)
-</h4>
+🇧🇷 Desenvolvedor Delphi Sênior com mais de 20 anos de experiência em sistemas ERP, integrações e aplicações mobile.
 
-<h3 align="center">
- <br>
-Olá, eu sou o Vinicius Fernandes! 🇧🇷
-<br>
- Sou desenvolvedor Delphi com mais de 20 anos de experiência na aréa de desenvolvimento. <br>
- Sou focado em desenvolvimento back-end. =)
-</h3>
+🇺🇸 Senior Software Developer with 20+ years of experience in ERP systems, integrations and backend development.
 
-<br>
+🇪🇸 Desarrollador Senior con más de 20 años de experiencia en sistemas ERP, integraciones y aplicaciones móviles.
 
-![A GitHub stats](https://github-readme-stats.vercel.app/api?username=viniciusflf&show_icons=true&theme=tokyonight)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=viniciusflf&theme=tokyonight)](https://github.com/viniciusflf)
+---
+
+## 🚀 Especialidades / Expertise
+
+- ERP Systems & Business Automation  
+- REST API Development  
+- System Integration  
+- Fintech Integration (Payment Systems - Bancard)  
+- Mobile Development (FMX)  
+- Database Optimization  
+
+---
+
+## 🧠 Tecnologias / Tech Stack
+
+- Delphi (VCL / FMX)  
+- Firebird, SQL Server, Oracle, MySQL  
+- REST APIs / JSON  
+- Cloud (AWS, OCI, Azure)  
+
+---
+
+## 💼 Destaques Profissionais
+
+- Desenvolvimento e evolução de múltiplos sistemas ERP  
+- Integração com plataformas financeiras (fintech - Bancard)  
+- Desenvolvimento de APIs e sistemas backend escaláveis  
+- Aplicações mobile integradas com sistemas corporativos  
+- Otimização de performance em banco de dados  
+
+---
+
+## 🌍 Idiomas
+
+- 🇧🇷 Português (Principal)  
+- 🇺🇸 Inglês (Profissional)  
+- 🇪🇸 Espanhol (Intermediário)  
+
+---
+
+## 📂 Projetos em Destaque
+
+👉 Veja meus principais projetos abaixo 👇
+
+---
+
+## 📫 Contato
+
+🔗 LinkedIn: https://linkedin.com/in/viniciusflf  
+🌐 GitHub: https://github.com/viniciusflf  
+
+💬 Aberto a oportunidades remotas e projetos internacionais
