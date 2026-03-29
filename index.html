@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Técnico -->
+    <title>Vinicius Fernandes | Especialista em Integração de Sistemas e ERP</title>
+    <meta name="description" content="Especialista em Integração de Sistemas, APIs REST, Pagamentos Fintech e ERP. Soluções robustas para otimização de processos e automação inteligente.">
+    <link rel="canonical" href="https://viniciusflf.github.io/">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://viniciusflf.github.io/">
+    <meta property="og:title" content="Vinicius Fernandes | Especialista em Integração de Sistemas e ERP">
+    <meta property="og:description" content="Soluções robustas em Integração de Sistemas, APIs REST, Pagamentos Fintech e ERP.">
+    <meta property="og:image" content="https://viniciusflf.github.io/assets/og-image.jpg">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://viniciusflf.github.io/">
+    <meta name="twitter:title" content="Vinicius Fernandes | Especialista em Integração de Sistemas e ERP">
+    <meta name="twitter:description" content="Especialista em Delphi, APIs REST e Automação de Processos.">
+    <meta name="twitter:image" content="https://viniciusflf.github.io/assets/og-image.jpg">
+
+    <!-- JSON-LD Dados Estruturados -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Vinicius Fernandes",
+      "jobTitle": "Software Engineer & ERP Specialist",
+      "url": "https://viniciusflf.github.io/",
+      "sameAs": [
+        "https://www.linkedin.com/in/viniciusflf",
+        "https://github.com/viniciusflf"
+      ],
+      "description": "Especialista em Integração de Sistemas, APIs REST, Pagamentos Fintech e ERP."
+    }
+    </script>
+
+    <style>
+        :root {
+            --bg-color: #09090b;
+            --text-color: #f4f4f5;
+            --primary-color: #3b82f6;
+            --secondary-bg: #18181b;
+            --border-color: #27272a;
+            --muted-text: #a1a1aa;
+            --font-main: 'Inter', system-ui, -apple-system, sans-serif;
+            scroll-behavior: smooth;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: var(--font-main);
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        /* Header & Nav */
+        header {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: rgba(9, 9, 11, 0.8);
+            backdrop-filter: blur(12px);
+            border-bottom: 1px solid var(--border-color);
+            z-index: 1000;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 72px;
+        }
+
+        .logo {
+            font-size: 1.25rem;
+            font-weight: 800;
+            letter-spacing: -0.05em;
+            text-decoration: none;
+            color: var(--text-color);
+        }
+
+        .logo span {
+            color: var(--primary-color);
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 32px;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: var(--text-color);
+            font-size: 0.875rem;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+
+        .nav-links a:hover {
+            color: var(--primary-color);
+        }
+
+        /* Hero */
+        .hero {
+            padding: 160px 0 100px;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 3.5rem;
+            line-height: 1.1;
+            font-weight: 800;
+            margin-bottom: 24px;
+            letter-spacing: -0.02em;
+        }
+
+        .hero p {
+            font-size: 1.25rem;
+            color: var(--muted-text);
+            max-width: 700px;
+            margin: 0 auto 40px;
+        }
+
+        .btn-group {
+            display: flex;
+            justify-content: center;
+            gap: 16px;
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            padding: 14px 32px;
+            border-radius: 9999px;
+            font-weight: 700;
+            text-decoration: none;
+            transition: transform 0.2s, background 0.3s;
+        }
+
+        .btn-primary {
+            background-color: var(--primary-color);
+            color: white;
+        }
+
+        .btn-secondary {
+            background-color: var(--secondary-bg);
+            color: white;
+            border: 1px solid var(--border-color);
+        }
+
+        .btn:hover {
+            transform: scale(1.05);
+        }
+
+        /* Sections */
+        section {
+            padding: 100px 0;
+            scroll-margin-top: 72px;
+        }
+
+        .section-title {
+            font-size: 2rem;
+            font-weight: 800;
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        /* Grid */
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 32px;
+        }
+
+        .card {
+            background: var(--secondary-bg);
+            border: 1px solid var(--border-color);
+            padding: 40px;
+            border-radius: 24px;
+            transition: border-color 0.3s;
+        }
+
+        .card:hover {
+            border-color: var(--primary-color);
+        }
+
+        .card h3 {
+            font-size: 1.25rem;
+            margin-bottom: 16px;
+            color: var(--primary-color);
+        }
+
+        .card p {
+            color: var(--muted-text);
+            font-size: 0.9375rem;
+        }
+
+        /* Projects */
+        .project-card {
+            position: relative;
+            background: #111;
+            height: 200px;
+            border-radius: 24px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            padding: 32px;
+            text-decoration: none;
+            color: white;
+            overflow: hidden;
+            border: 1px solid var(--border-color);
+        }
+
+        .project-card::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(to top, rgba(0,0,0,0.8), transparent);
+        }
+
+        .project-card h3, .project-card span {
+            position: relative;
+            z-index: 1;
+        }
+
+        .project-card span {
+            font-size: 0.875rem;
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-top: 8px;
+            opacity: 0.8;
+        }
+
+        /* About */
+        .about-flex {
+            display: flex;
+            align-items: center;
+            gap: 64px;
+            flex-wrap: wrap;
+        }
+
+        .about-img {
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid var(--border-color);
+        }
+
+        .about-content {
+            flex: 1;
+            min-width: 300px;
+        }
+
+        .specialties {
+            display: inline-block;
+            margin-top: 24px;
+            padding: 12px 24px;
+            background: rgba(59, 130, 246, 0.1);
+            color: var(--primary-color);
+            border-radius: 16px;
+            font-weight: 600;
+        }
+
+        /* Process */
+        .process-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 40px;
+            text-align: center;
+        }
+
+        .process-item h4 {
+            font-size: 1.25rem;
+            margin-bottom: 12px;
+            color: var(--primary-color);
+        }
+
+        /* FAQ */
+        .faq-container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        details {
+            background: var(--secondary-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            margin-bottom: 16px;
+            padding: 20px;
+        }
+
+        summary {
+            font-weight: 700;
+            cursor: pointer;
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        summary::after {
+            content: "+";
+            font-size: 1.5rem;
+        }
+
+        details[open] summary::after {
+            content: "-";
+        }
+
+        /* Contact Form */
+        .contact-form {
+            background: var(--secondary-bg);
+            padding: 48px;
+            border-radius: 32px;
+            border: 1px solid var(--border-color);
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .form-group {
+            margin-bottom: 24px;
+        }
+
+        .form-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 24px;
+        }
+
+        label {
+            display: block;
+            font-size: 0.875rem;
+            font-weight: 700;
+            margin-bottom: 8px;
+            opacity: 0.7;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 16px 24px;
+            background: var(--bg-color);
+            border: 1px solid var(--border-color);
+            border-radius: 16px;
+            color: white;
+            font-family: inherit;
+            outline: none;
+            transition: border-color 0.3s;
+        }
+
+        input:focus, textarea:focus {
+            border-color: var(--primary-color);
+        }
+
+        .btn-submit {
+            width: 100%;
+            background: var(--primary-color);
+            color: white;
+            border: none;
+            padding: 18px;
+            border-radius: 16px;
+            font-weight: 700;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+
+        /* Footer */
+        footer {
+            padding: 80px 0;
+            border-top: 1px solid var(--border-color);
+            text-align: center;
+        }
+
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 24px;
+            margin: 40px 0;
+        }
+
+        .social-links a {
+            background: var(--secondary-bg);
+            width: 56px;
+            height: 56px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            text-decoration: none;
+            color: white;
+            transition: background 0.3s;
+        }
+
+        .social-links a:hover {
+            background: var(--primary-color);
+        }
+
+        .copyright {
+            font-size: 0.875rem;
+            opacity: 0.5;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 2.5rem; }
+            .nav-links { display: none; }
+            .form-row { grid-template-columns: 1fr; }
+            .process-grid { grid-template-columns: 1fr; }
+            .about-flex { justify-content: center; text-align: center; }
+        }
+
+        .skip-link {
+            position: absolute;
+            top: -100px;
+            left: 0;
+            background: var(--primary-color);
+            color: white;
+            padding: 8px;
+            z-index: 2000;
+        }
+        .skip-link:focus { top: 0; }
+    </style>
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Pular para o conteúdo principal</a>
+
+    <header>
+        <div class="container">
+            <nav>
+                <a href="#" class="logo">VINICIUS<span>FERNANDES</span></a>
+                <div class="nav-links">
+                    <a href="#servicos">Serviços</a>
+                    <a href="#projetos">Projetos</a>
+                    <a href="#sobre">Sobre</a>
+                    <a href="#contato">Contato</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main-content">
+        <!-- Hero -->
+        <section class="hero">
+            <div class="container">
+                <h1>Soluções Robustas em Integração e ERP</h1>
+                <p>Especialista em conectar sistemas complexos, otimizar fluxos de pagamento e desenvolver APIs de alta performance para o seu negócio.</p>
+                <div class="btn-group">
+                    <a href="https://www.linkedin.com/in/viniciusflf" target="_blank" class="btn btn-primary">Falar no LinkedIn</a>
+                    <a href="https://github.com/viniciusflf" target="_blank" class="btn btn-secondary">GitHub</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Serviços -->
+        <section id="servicos">
+            <div class="container">
+                <h2 class="section-title">Serviços Especializados</h2>
+                <div class="grid">
+                    <div class="card">
+                        <h3>Integração de Sistemas</h3>
+                        <p>Conectividade fluida entre plataformas heterogêneas, garantindo integridade e sincronia de dados em tempo real.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Pagamentos & Fintech</h3>
+                        <p>Implementação de gateways de pagamento e conformidade com padrões financeiros para transações seguras.</p>
+                    </div>
+                    <div class="card">
+                        <h3>APIs REST</h3>
+                        <p>Desenvolvimento de APIs escaláveis, documentadas e performáticas utilizando as melhores práticas do mercado.</p>
+                    </div>
+                    <div class="card">
+                        <h3>ERP & Automação</h3>
+                        <p>Otimização de processos de negócio com foco em produtividade, redução de erros e automação inteligente.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Mobile FMX</h3>
+                        <p>Aplicações móveis nativas e multiplataforma com interface rica e performance de alto nível.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Otimização de BD</h3>
+                        <p>Tuning de consultas SQL e modelagem de dados estratégica para suportar grandes volumes de informação.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Especialidades Técnicas -->
+        <section style="background: var(--secondary-bg);">
+            <div class="container">
+                <h2 class="section-title">Diferenciais & Autoridade</h2>
+                <div class="grid">
+                    <div class="card" style="background: var(--bg-color);">
+                        <h3>Arquitetura Escalável</h3>
+                        <p>Sistemas desenhados para crescer junto com sua demanda, sem perda de performance.</p>
+                    </div>
+                    <div class="card" style="background: var(--bg-color);">
+                        <h3>Segurança de Dados</h3>
+                        <p>Foco total em conformidade e proteção de informações sensíveis em todas as camadas.</p>
+                    </div>
+                    <div class="card" style="background: var(--bg-color);">
+                        <h3>Experiência em ERP</h3>
+                        <p>Domínio profundo das regras de negócio que regem os grandes sistemas de gestão.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projetos -->
+        <section id="projetos">
+            <div class="container">
+                <h2 class="section-title">Projetos em Destaque</h2>
+                <div class="grid">
+                    <a href="https://github.com/viniciusflf/erp-api-delphi" target="_blank" class="project-card">
+                        <h3>ERP API Delphi</h3>
+                        <span>Ver no GitHub &rarr;</span>
+                    </a>
+                    <a href="https://github.com/viniciusflf/payment-integration-delphi" target="_blank" class="project-card">
+                        <h3>Payment Integration</h3>
+                        <span>Ver no GitHub &rarr;</span>
+                    </a>
+                    <a href="https://github.com/viniciusflf/mobile-erp-app" target="_blank" class="project-card">
+                        <h3>Mobile ERP App</h3>
+                        <span>Ver no GitHub &rarr;</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Processo -->
+        <section style="background: var(--secondary-bg);">
+            <div class="container">
+                <h2 class="section-title">Como eu trabalho</h2>
+                <div class="process-grid">
+                    <div class="process-item">
+                        <h4>1. Análise</h4>
+                        <p>Entendimento profundo dos requisitos técnicos e de negócio.</p>
+                    </div>
+                    <div class="process-item">
+                        <h4>2. Arquitetura</h4>
+                        <p>Desenho de soluções escaláveis e seguras.</p>
+                    </div>
+                    <div class="process-item">
+                        <h4>3. Implementação</h4>
+                        <p>Código limpo, testado e seguindo padrões internacionais.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sobre -->
+        <section id="sobre">
+            <div class="container">
+                <div class="about-flex">
+                    <img src="https://picsum.photos/seed/vinicius/400/400" alt="Vinicius Fernandes" class="about-img">
+                    <div class="about-content">
+                        <h2 class="section-title" style="text-align: left; margin-bottom: 24px;">Sobre Vinicius Fernandes</h2>
+                        <p>Com vasta experiência em desenvolvimento de software, foco minha atuação em resolver problemas complexos de integração e automação. Minha missão é transformar tecnologia em valor real para o negócio.</p>
+                        <div class="specialties">
+                            Especialidades: Delphi, REST APIs, SQL Server, Mobile FMX, Integrações Fintech.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ -->
+        <section style="background: var(--secondary-bg);">
+            <div class="container">
+                <h2 class="section-title">Perguntas Frequentes</h2>
+                <div class="faq-container">
+                    <details>
+                        <summary>Quais tipos de integrações você realiza?</summary>
+                        <p style="margin-top: 16px; color: var(--muted-text);">Realizo integrações entre ERPs, CRMs, Gateways de Pagamento, APIs de terceiros e sistemas legados.</p>
+                    </details>
+                    <details>
+                        <summary>Você trabalha com projetos sob demanda?</summary>
+                        <p style="margin-top: 16px; color: var(--muted-text);">Sim, atuo tanto em consultoria pontual quanto no desenvolvimento completo de módulos e sistemas.</p>
+                    </details>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contato -->
+        <section id="contato">
+            <div class="container">
+                <h2 class="section-title">Entre em Contato</h2>
+                <div class="contact-form">
+                    <form id="portfolio-form" action="https://formspree.io/f/maqleyzg" method="POST">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Nome</label>
+                                <input type="text" id="name" name="name" placeholder="Seu nome completo" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">E-mail</label>
+                                <input type="email" id="email" name="email" placeholder="seu@email.com" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Mensagem</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Como posso ajudar seu negócio?" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-submit" id="submit-btn">Enviar Mensagem</button>
+                        <p id="form-status" style="margin-top: 16px; text-align: center; font-weight: 700; display: none;"></p>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <h2>Vamos conversar?</h2>
+            <p style="color: var(--muted-text);">Conecte-se comigo para discutir seu próximo projeto.</p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/viniciusflf" target="_blank" aria-label="LinkedIn">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                </a>
+                <a href="https://github.com/viniciusflf" target="_blank" aria-label="GitHub">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                </a>
+            </div>
+            <p class="copyright">&copy; 2026 Vinicius Fernandes. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Form Handling
+        const form = document.getElementById('portfolio-form');
+        const status = document.getElementById('form-status');
+        const btn = document.getElementById('submit-btn');
+
+        form.addEventListener('submit', async (e) => {
+            e.preventDefault();
+            btn.disabled = true;
+            btn.innerText = "Enviando...";
+            
+            const data = new FormData(form);
+            try {
+                const response = await fetch(form.action, {
+                    method: 'POST',
+                    body: data,
+                    headers: { 'Accept': 'application/json' }
+                });
+                
+                if (response.ok) {
+                    status.innerText = "Mensagem enviada com sucesso!";
+                    status.style.color = "#10b981";
+                    status.style.display = "block";
+                    form.reset();
+                } else {
+                    throw new Error();
+                }
+            } catch (err) {
+                status.innerText = "Erro ao enviar. Tente novamente.";
+                status.style.color = "#ef4444";
+                status.style.display = "block";
+            } finally {
+                btn.disabled = false;
+                btn.innerText = "Enviar Mensagem";
+            }
+        });
+    </script>
+</body>
+</html>
